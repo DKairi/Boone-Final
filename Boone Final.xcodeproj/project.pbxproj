@@ -16,6 +16,11 @@
 		184E9E9C29FCA260000597DF /* Boone_FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E9E9B29FCA260000597DF /* Boone_FinalTests.swift */; };
 		184E9EA629FCA260000597DF /* Boone_FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E9EA529FCA260000597DF /* Boone_FinalUITests.swift */; };
 		184E9EA829FCA260000597DF /* Boone_FinalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E9EA729FCA260000597DF /* Boone_FinalUITestsLaunchTests.swift */; };
+		184E9EB529FCA378000597DF /* Connect4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E9EB429FCA378000597DF /* Connect4ViewController.swift */; };
+		18C8A96C29FCAB4500FFEF18 /* BoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C8A96B29FCAB4500FFEF18 /* BoardCell.swift */; };
+		18C8A96E29FCACC500FFEF18 /* BoardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C8A96D29FCACC500FFEF18 /* BoardItem.swift */; };
+		18C8A97029FCACD000FFEF18 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C8A96F29FCACD000FFEF18 /* Board.swift */; };
+		18C8A97229FCACD800FFEF18 /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C8A97129FCACD800FFEF18 /* Turn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		184E9EA129FCA260000597DF /* Boone FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Boone FinalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		184E9EA529FCA260000597DF /* Boone_FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boone_FinalUITests.swift; sourceTree = "<group>"; };
 		184E9EA729FCA260000597DF /* Boone_FinalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boone_FinalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		184E9EB429FCA378000597DF /* Connect4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connect4ViewController.swift; sourceTree = "<group>"; };
+		18C8A96B29FCAB4500FFEF18 /* BoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCell.swift; sourceTree = "<group>"; };
+		18C8A96D29FCACC500FFEF18 /* BoardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardItem.swift; sourceTree = "<group>"; };
+		18C8A96F29FCACD000FFEF18 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		18C8A97129FCACD800FFEF18 /* Turn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				184E9E8629FCA25F000597DF /* SceneDelegate.swift */,
 				184E9E8829FCA25F000597DF /* ViewController.swift */,
 				184E9E8A29FCA25F000597DF /* Main.storyboard */,
+				18C8A96B29FCAB4500FFEF18 /* BoardCell.swift */,
+				184E9EB429FCA378000597DF /* Connect4ViewController.swift */,
+				18C8A96D29FCACC500FFEF18 /* BoardItem.swift */,
+				18C8A96F29FCACD000FFEF18 /* Board.swift */,
+				18C8A97129FCACD800FFEF18 /* Turn.swift */,
 				184E9E8D29FCA260000597DF /* Assets.xcassets */,
 				184E9E8F29FCA260000597DF /* LaunchScreen.storyboard */,
 				184E9E9229FCA260000597DF /* Info.plist */,
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C8A96C29FCAB4500FFEF18 /* BoardCell.swift in Sources */,
+				184E9EB529FCA378000597DF /* Connect4ViewController.swift in Sources */,
 				184E9E8929FCA25F000597DF /* ViewController.swift in Sources */,
 				184E9E8529FCA25F000597DF /* AppDelegate.swift in Sources */,
+				18C8A97029FCACD000FFEF18 /* Board.swift in Sources */,
 				184E9E8729FCA25F000597DF /* SceneDelegate.swift in Sources */,
+				18C8A97229FCACD800FFEF18 /* Turn.swift in Sources */,
+				18C8A96E29FCACC500FFEF18 /* BoardItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
